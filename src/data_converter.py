@@ -4,11 +4,11 @@ from langchain_core.documents import Document
 
 # Create a new document using required features from the dataset.
 
-def dataConverter():
+def data_converter():
 
     # load the dataset
     try:
-        dataset_path = os.path.join("..", "dataset", "dataset.csv")
+        dataset_path = os.path.join(os.path.dirname(__file__),'../dataset/dataset.csv')
         product_review_data = pd.read_csv(dataset_path)
     except FileNotFoundError:
         print("Error: Dataset is not found.")
