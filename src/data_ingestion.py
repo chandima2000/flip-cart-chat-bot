@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain_astradb import AstraDBVectorStore
 from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
-from data_converter import data_converter
+from src.data_converter import data_converter
 
 
 load_dotenv()
