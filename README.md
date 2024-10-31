@@ -2,6 +2,7 @@
 
 This repository contains an E-commerce chatbot capable of providing product recommendations based on user queries and customer reviews. It leverages a Retrieval-Augmented Generation (RAG) system that combines vector retrieval with a language model for enhanced conversational and contextual responses. The application is deployed on AWS EC2.
 
+GitHub Actions workflow is designed to automate the process of integrating, building, pushing, and deploying a Docker image for an e-commerce chatbot application on Amazon Elastic Container Registry (ECR) and Amazon Elastic Container Service (ECS).
 
 ## Features
 
